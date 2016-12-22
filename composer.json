@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Dynamicart\\Repository\\": "repository/src"
+            "Dynamicart\\Repository\\": "src"
         }
     },
     "minimum-stability": "dev",

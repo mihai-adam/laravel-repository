@@ -1,0 +1,25 @@
+<?php
+
+namespace <__repoNamespace__>;
+
+use Dynamicart\Repository\Adapters\<__adapter__>RepositoryAdapter as Repository;
+use <__interfaceNamespace__>\<__interfaceClass__>;
+use <__modelNamespace__>\<__modelClass__>;
+
+/**
+ * Class  <__repoClass__>
+ *
+ * @package <__repoNamespace__>
+ */
+class <__repoClass__> extends Repository implements <__interfaceClass__>
+{
+
+    /**
+     * Model class name
+     * @return string
+     */
+    public function getModelClass()
+    {
+        return <__modelClass__>::class;
+    }
+}

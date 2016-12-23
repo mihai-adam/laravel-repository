@@ -2,7 +2,7 @@
 
 namespace <__repoNamespace__>;
 
-use Dynamicart\Repository\Adapters\<__adapter__>RepositoryAdapter as Repository;
+use Dynamicart\LaravelRepository\Adapters\<__adapter__>RepositoryAdapter as Repository;
 use <__interfaceNamespace__>\<__interfaceClass__>;
 use <__modelNamespace__>\<__modelClass__>;
 

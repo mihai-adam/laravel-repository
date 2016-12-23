@@ -1,6 +1,6 @@
 <?php
 
-namespace Dynamicart\Repository\Exceptions;
+namespace Dynamicart\LaravelRepository\Exceptions;
 
 use Exception;
 
@@ -8,7 +8,7 @@ use Exception;
  * General Repository package exception
  *
  * Class RepositoryException
- * @package Dynamicart\Repository\Exceptions
+ * @package Dynamicart\LaravelRepository\Exceptions
  */
 class RepositoryException extends Exception
 {

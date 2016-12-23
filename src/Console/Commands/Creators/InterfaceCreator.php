@@ -1,16 +1,16 @@
 <?php
 
-namespace Dynamicart\Repository\Console\Commands\Creators;
+namespace Dynamicart\LaravelRepository\Console\Commands\Creators;
 
 use Illuminate\Support\Facades\Config;
-use Dynamicart\Repository\Exceptions\ModelNotFoundException;
-use Dynamicart\Repository\Exceptions\InterfaceExistsException;
+use Dynamicart\LaravelRepository\Exceptions\ModelNotFoundException;
+use Dynamicart\LaravelRepository\Exceptions\InterfaceExistsException;
 
 /**
  * Create a new interface file
  *
  * Class InterfaceCreator
- * @package Dynamicart\Repository\Console\Commands\Creators
+ * @package Dynamicart\LaravelRepository\Console\Commands\Creators
  */
 class InterfaceCreator extends FileCreator
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Dynamicart\Repository;
+namespace Dynamicart\LaravelRepository;
 
 /**
  * Base Repository Class
  *
  * Class Repository
- * @package Dynamicart\Repository
+ * @package Dynamicart\LaravelRepository
  */
 abstract class Repository
 {

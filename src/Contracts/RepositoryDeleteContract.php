@@ -1,12 +1,12 @@
 <?php
 
-namespace Dynamicart\Repository\Contracts;
+namespace Dynamicart\LaravelRepository\Contracts;
 
 /**
  * Delete functionality
  *
  * Interface RepositoryDeleteContract
- * @package Dynamicart\Repository\Contracts
+ * @package Dynamicart\LaravelRepository\Contracts
  */
 interface RepositoryDeleteContract
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Dynamicart\Repository\Console\Commands\Creators;
+namespace Dynamicart\LaravelRepository\Console\Commands\Creators;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Facades\Config;
@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Config;
  * Bind an interface to concrete
  *
  * Class BindingCreator
- * @package Dynamicart\Repository\Console\Commands\Creators
+ * @package Dynamicart\LaravelRepository\Console\Commands\Creators
  */
 class BindingCreator
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Dynamicart\Repository\Console\Commands\Creators;
+namespace Dynamicart\LaravelRepository\Console\Commands\Creators;
 
 /**
  * Abstract class extended by all creators
  * Contains some basic functionality
  *
  * Class Creator
- * @package Dynamicart\Repository\Console\Commands\Creators
+ * @package Dynamicart\LaravelRepository\Console\Commands\Creators
  */
 abstract class Creator
 {

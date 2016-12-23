@@ -1,12 +1,12 @@
 <?php
 
-namespace Dynamicart\Repository\Contracts;
+namespace Dynamicart\LaravelRepository\Contracts;
 
 /**
  * Create functionality
  *
  * Interface RepositoryCreateContract
- * @package Dynamicart\Repository\Contracts
+ * @package Dynamicart\LaravelRepository\Contracts
  */
 interface RepositoryCreateContract
 {

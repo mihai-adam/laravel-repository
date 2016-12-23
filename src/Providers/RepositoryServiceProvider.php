@@ -1,9 +1,9 @@
 <?php
 
-namespace Dynamicart\Repository\Providers;
+namespace Dynamicart\LaravelRepository\Providers;
 
-use Dynamicart\Repository\Console\Commands\MakeRepositoryCommand;
-use Dynamicart\Repository\Console\Commands\MakeCriteriaCommand;
+use Dynamicart\LaravelRepository\Console\Commands\MakeRepositoryCommand;
+use Dynamicart\LaravelRepository\Console\Commands\MakeCriteriaCommand;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Config;
 
@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Config;
  * Laravel Package ServiceProvider
  *
  * Class RepositoryServiceProvider
- * @package Dynamicart\Repository\Providers
+ * @package Dynamicart\LaravelRepository\Providers
  */
 class RepositoryServiceProvider extends ServiceProvider
 {

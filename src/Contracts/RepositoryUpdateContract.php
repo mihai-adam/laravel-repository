@@ -6,7 +6,7 @@
  * Time: 10:36 PM
  */
 
-namespace Dynamicart\Repository\Contracts;
+namespace Dynamicart\LaravelRepository\Contracts;
 
 
 interface RepositoryUpdateContract

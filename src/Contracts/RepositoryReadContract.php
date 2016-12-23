@@ -6,13 +6,13 @@
  * Time: 10:31 PM
  */
 
-namespace Dynamicart\Repository\Contracts;
+namespace Dynamicart\LaravelRepository\Contracts;
 
 /**
  * Find Functionality
  *
  * Interface RepositoryFindContract
- * @package Dynamicart\Repository\Contracts
+ * @package Dynamicart\LaravelRepository\Contracts
  */
 interface RepositoryReadContract
 {

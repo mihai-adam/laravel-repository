@@ -1,16 +1,16 @@
 <?php
 
-namespace Dynamicart\Repository\Console\Commands;
+namespace Dynamicart\LaravelRepository\Console\Commands;
 
 use Illuminate\Console\Command;
-use Dynamicart\Repository\Console\Commands\Creators\CriteriaCreator;
+use Dynamicart\LaravelRepository\Console\Commands\Creators\CriteriaCreator;
 
 /**
  * TODO write this class functionality
  * Console command to generate repository for a criteria
  *
  * Class MakeCriteriaCommand *
- * @package Dynamicart\Repository\Console\Commands
+ * @package Dynamicart\LaravelRepository\Console\Commands
  */
 class MakeCriteriaCommand extends Command
 {

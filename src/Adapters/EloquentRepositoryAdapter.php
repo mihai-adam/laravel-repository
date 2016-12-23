@@ -1,18 +1,18 @@
 <?php
 
-namespace Dynamicart\Repository\Adapters;
+namespace Dynamicart\LaravelRepository\Adapters;
 
-use Dynamicart\Repository\Contracts\RepositoryCreateContract as Create;
-use Dynamicart\Repository\Contracts\RepositoryReadContract as Read;
-use Dynamicart\Repository\Contracts\RepositoryUpdateContract as Update;
-use Dynamicart\Repository\Contracts\RepositoryDeleteContract as Delete;
-use Dynamicart\Repository\Repository;
+use Dynamicart\LaravelRepository\Contracts\RepositoryCreateContract as Create;
+use Dynamicart\LaravelRepository\Contracts\RepositoryReadContract as Read;
+use Dynamicart\LaravelRepository\Contracts\RepositoryUpdateContract as Update;
+use Dynamicart\LaravelRepository\Contracts\RepositoryDeleteContract as Delete;
+use Dynamicart\LaravelRepository\Repository;
 
 /**
  * Eloquent Repository Adapter
  *
  * Class EloquentRepositoryAdapter
- * @package Dynamicart\Repository\Adapters\Eloquent
+ * @package Dynamicart\LaravelRepository\Adapters\Eloquent
  */
 abstract class EloquentRepositoryAdapter extends Repository implements Create, Read, Update, Delete
 {

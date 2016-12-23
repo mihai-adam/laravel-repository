@@ -1,12 +1,12 @@
 <?php
 
-namespace Dynamicart\Repository\Exceptions;
+namespace Dynamicart\LaravelRepository\Exceptions;
 
 /**
  * Thrown when repository already exists
  *
  * Class RepositoryExistsException
- * @package Dynamicart\Repository\Exceptions
+ * @package Dynamicart\LaravelRepository\Exceptions
  */
 class RepositoryExistsException extends RepositoryException
 {

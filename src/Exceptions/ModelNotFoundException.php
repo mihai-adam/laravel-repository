@@ -1,12 +1,12 @@
 <?php
 
-namespace Dynamicart\Repository\Exceptions;
+namespace Dynamicart\LaravelRepository\Exceptions;
 
 /**
  * Thrown when try ro create a new repository for a model that not exists
  *
  * Class ModelNotFoundException
- * @package Dynamicart\Repository\Exceptions
+ * @package Dynamicart\LaravelRepository\Exceptions
  */
 class ModelNotFoundException extends RepositoryException
 {

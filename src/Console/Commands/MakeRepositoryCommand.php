@@ -1,13 +1,13 @@
 <?php
 
-namespace Dynamicart\Repository\Console\Commands;
+namespace Dynamicart\LaravelRepository\Console\Commands;
 
 use Illuminate\Console\Command;
-use Dynamicart\Repository\Exceptions\RepositoryException;
-use Dynamicart\Repository\Providers\RepositoryServiceProvider;
-use Dynamicart\Repository\Console\Commands\Creators\BindingCreator;
-use Dynamicart\Repository\Console\Commands\Creators\InterfaceCreator;
-use Dynamicart\Repository\Console\Commands\Creators\RepositoryCreator;
+use Dynamicart\LaravelRepository\Exceptions\RepositoryException;
+use Dynamicart\LaravelRepository\Providers\RepositoryServiceProvider;
+use Dynamicart\LaravelRepository\Console\Commands\Creators\BindingCreator;
+use Dynamicart\LaravelRepository\Console\Commands\Creators\InterfaceCreator;
+use Dynamicart\LaravelRepository\Console\Commands\Creators\RepositoryCreator;
 
 /**
  * Console command to generate repository for a model
@@ -23,7 +23,7 @@ use Dynamicart\Repository\Console\Commands\Creators\RepositoryCreator;
  *          Model must be created before, and if not exists an error will be displayed
  *
  * Class MakeRepositoryCommand
- * @package Dynamicart\Repository\Console\Commands
+ * @package Dynamicart\LaravelRepository\Console\Commands
  */
 class MakeRepositoryCommand extends Command
 {

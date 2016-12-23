@@ -1,16 +1,16 @@
 <?php
 
-namespace Dynamicart\Repository\Console\Commands\Creators;
+namespace Dynamicart\LaravelRepository\Console\Commands\Creators;
 
-use Dynamicart\Repository\Exceptions\ModelNotFoundException;
-use Dynamicart\Repository\Exceptions\RepositoryExistsException;
+use Dynamicart\LaravelRepository\Exceptions\ModelNotFoundException;
+use Dynamicart\LaravelRepository\Exceptions\RepositoryExistsException;
 use Illuminate\Support\Facades\Config;
 
 /**
  * Create a new repository file
  *
  * Class RepositoryCreator
- * @package Dynamicart\Repository\Console\Commands\Creators
+ * @package Dynamicart\LaravelRepository\Console\Commands\Creators
  */
 class RepositoryCreator extends FileCreator
 {

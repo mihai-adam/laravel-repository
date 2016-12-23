@@ -1,10 +1,10 @@
 <?php
 
-namespace Dynamicart\Repository\Console\Commands\Creators;
+namespace Dynamicart\LaravelRepository\Console\Commands\Creators;
 
 use Illuminate\Filesystem\Filesystem;
-use Dynamicart\Repository\Exceptions\MakeFileException;
-use Dynamicart\Repository\Exceptions\RepositoryException;
+use Dynamicart\LaravelRepository\Exceptions\MakeFileException;
+use Dynamicart\LaravelRepository\Exceptions\RepositoryException;
 
 
 /**
@@ -12,7 +12,7 @@ use Dynamicart\Repository\Exceptions\RepositoryException;
  * Contains some basic functionality for generating files from stubs
  *
  * Class FileCreator
- * @package Dynamicart\Repository\Console\Commands\Creators
+ * @package Dynamicart\LaravelRepository\Console\Commands\Creators
  */
 abstract class FileCreator extends Creator
 {

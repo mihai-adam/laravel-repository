@@ -1,6 +1,6 @@
 <?php
 
-namespace Dynamicart\Repository\Console\Commands\Creators;
+namespace Dynamicart\LaravelRepository\Console\Commands\Creators;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Facades\Config;
@@ -11,7 +11,7 @@ use Doctrine\Common\Inflector\Inflector;
  * Create a new criteria class
  *
  * Class CriteriaCreator
- * @package Dynamicart\Repository\Console\Commands\Creators
+ * @package Dynamicart\LaravelRepository\Console\Commands\Creators
  */
 class CriteriaCreator {
 

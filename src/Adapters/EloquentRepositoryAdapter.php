@@ -6,7 +6,7 @@ use Dynamicart\LaravelRepository\Contracts\RepositoryCreateContract as Create;
 use Dynamicart\LaravelRepository\Contracts\RepositoryReadContract as Read;
 use Dynamicart\LaravelRepository\Contracts\RepositoryUpdateContract as Update;
 use Dynamicart\LaravelRepository\Contracts\RepositoryDeleteContract as Delete;
-use Dynamicart\LaravelRepository\Repository;
+use Dynamicart\Repository\Repository;
 
 /**
  * Eloquent Repository Adapter

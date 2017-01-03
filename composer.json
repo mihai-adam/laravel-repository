@@ -10,8 +10,7 @@
     ],
     "require": {
         "php": ">=5.6.4",
-        "laravel/framework": "5.*",
-        "mihai-adam/repository": "dev-master"
+        "laravel/framework": "5.*"
     },
     "autoload": {
         "psr-4": {

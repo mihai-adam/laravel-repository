@@ -109,7 +109,8 @@ class RepositoryCreator extends FileCreator
      */
     protected function name($file = false, $adapter = false)
     {
-        $name = ($adapter) ? ucfirst(strtolower(Config::get('repository.adapter'))) . '\\' . $this->model : $this->model;
+        $ap =  ucfirst(strtolower(Config::get('repository.adapter')));
+        $name = ($adapter) ? $ap . '\\' . $ap.$this->model : $this->model;
 
         if (!strpos($name, 'Repository') !== false) {
             // Append 'Repository' if not.

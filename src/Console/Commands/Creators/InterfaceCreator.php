@@ -89,9 +89,9 @@ class InterfaceCreator extends FileCreator
     protected function name($file = false)
     {
         $name = $this->model;
-        if (!strpos($name, 'Contract') !== false) {
-            // Append 'Contract' if not.
-            $name .= 'Contract';
+        if (!strpos($name, 'Repository') !== false) {
+            // Append 'Repository' if not.
+            $name .= 'Repository';
         }
         return ($file) ? $name . '.php' : $name;
     }
